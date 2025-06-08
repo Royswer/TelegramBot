@@ -81,7 +81,7 @@ async def command_start_handler(message: Message) -> None:
         fact = facts.text.strip()
         await message.answer(fact)
 
-#Эхо(дубликат сообщения пользователя)
+#Эхо(дубль сообщения пользователя)
 @dp.message()
 async def echo_handler(message: Message) -> None:
     try:
